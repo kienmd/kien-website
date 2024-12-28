@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-theme-light text-primary transition-colors duration-300 
+           dark:bg-theme-dark dark:text-primary-dark;
+  }
+  
+  h1 {
+    @apply text-primary dark:text-primary-dark font-serif;
+  }
+  
+  p {
+    @apply text-gray-600 dark:text-gray-300;
+  }
+  
+  a {
+    @apply text-primary dark:text-primary-dark hover:text-gray-600 dark:hover:text-gray-300 
+           transition-colors duration-300;
+  }
+}
