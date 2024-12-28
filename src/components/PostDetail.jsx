@@ -44,7 +44,7 @@ export default function PostDetail() {
           {post.tags && (
             <div className="flex gap-2">
               {post.tags.map(tag => (
-                <span key={tag} className="text-sm bg-gray-100 px-2 py-1 rounded">
+                <span key={tag} className="text-sm bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 px-2 py-1 rounded">
                   {tag}
                 </span>
               ))}
