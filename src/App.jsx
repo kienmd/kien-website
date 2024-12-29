@@ -6,8 +6,9 @@ export default function App() {
   return (
     <ThemeProvider>
       <Router>
-        <Layout />
-      </Router>
+        {/* this file structure is wrong!! as Layout should wrap around the Routes but we've defined the Routes in Layout.jsx */}
+        <Layout /> 
+      </Router> 
     </ThemeProvider>
   )
 }
