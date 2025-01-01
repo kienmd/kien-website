@@ -2,7 +2,7 @@ import matter from 'gray-matter';
 
 export function getAllPosts() {
   try {
-    const posts = import.meta.glob('../../public/posts/*.md', { 
+    const posts = import.meta.glob('../posts/*.md', { 
       eager: true,
       as: 'raw'
     });

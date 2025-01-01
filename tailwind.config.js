@@ -35,15 +35,24 @@ module.exports = {
             h3: {
               color: '#1a1a1a',
             },
+            blockquote: {
+              color: '#374151',
+              borderLeftColor: '#3b82f6',
+            },
+            a: {
+              color: '#3b82f6',
+              '&:hover': {
+                color: '#2563eb',
+              },
+            },
             li: {
-              marginTop: '0.25em',
-              marginBottom: '0.25em',
+              color: '#1a1a1a',
             },
           }
         },
-        dark: {
+        invert: {
           css: {
-            color: '#9ca3af',
+            color: '#d1d5db',
             h1: {
               color: '#ffffff',
             },
@@ -51,6 +60,19 @@ module.exports = {
               color: '#ffffff',
             },
             h3: {
+              color: '#ffffff',
+            },
+            blockquote: {
+              color: '#d1d5db',
+              borderLeftColor: '#3b82f6',
+            },
+            a: {
+              color: '#60a5fa',
+              '&:hover': {
+                color: '#93c5fd',
+              },
+            },
+            li: {
               color: '#ffffff',
             },
           }
