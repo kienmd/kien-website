@@ -53,7 +53,7 @@ export default function PostDetail() {
         </header>
         
         <div 
-          className="prose prose-slate max-w-none
+          className="prose prose-slate dark:prose-invert max-w-none
                      prose-p:font-sans prose-p:text-gray-600
                      prose-headings:font-serif 
                      prose-h2:text-2xl prose-h2:font-serif

@@ -26,6 +26,15 @@ module.exports = {
           css: {
             maxWidth: 'none',
             color: '#374151',
+            h1: {
+              color: '#1a1a1a',
+            },
+            h2: {
+              color: '#1a1a1a',
+            },
+            h3: {
+              color: '#1a1a1a',
+            },
             li: {
               marginTop: '0.25em',
               marginBottom: '0.25em',
@@ -35,56 +44,17 @@ module.exports = {
         dark: {
           css: {
             color: '#9ca3af',
-            strong: {
-              color: '#fff',
-            },
-            'ol > li::before': {
-              color: '#9ca3af',
-            },
-            'ul > li::before': {
-              backgroundColor: '#9ca3af',
-            },
-            hr: {
-              borderColor: '#374151',
-            },
-            blockquote: {
-              color: '#9ca3af',
-              borderLeftColor: '#374151',
-            },
             h1: {
-              color: '#fff',
+              color: '#ffffff',
             },
             h2: {
-              color: '#fff',
+              color: '#ffffff',
             },
             h3: {
-              color: '#fff',
+              color: '#ffffff',
             },
-            h4: {
-              color: '#fff',
-            },
-            'figure figcaption': {
-              color: '#9ca3af',
-            },
-            code: {
-              color: '#fff',
-            },
-            'a code': {
-              color: '#fff',
-            },
-            pre: {
-              color: '#9ca3af',
-              backgroundColor: '#1f2937',
-            },
-            thead: {
-              color: '#fff',
-              borderBottomColor: '#374151',
-            },
-            'tbody tr': {
-              borderBottomColor: '#374151',
-            },
-          },
-        },
+          }
+        }
       },
     },
   },
