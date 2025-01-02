@@ -25,7 +25,7 @@ export default function Hero() {
           <>
             <h1 className="text-6xl font-serif">Kien Hang</h1>
             <p className="text-xl text-gray-600 dark:text-gray-300 leading-relaxed">
-              I'm a Ex-Doctor and Engineer based in LDN/NYC. Currently building LLMs for healthcare at <a href="https://www.anterior.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-600 transition-colors duration-300">Anterior</a> and prev. <a href="https://www.lindushealth.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-600 transition-colors duration-300">Lindus Health</a>.
+              I'm a Doctor and Engineer based in LDN/NYC. Currently building LLMs for healthcare at <a href="https://www.anterior.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-600 transition-colors duration-300">Anterior</a> and prev. <a href="https://www.lindushealth.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-600 transition-colors duration-300">Lindus Health</a>.
               I write about medicine, programming, and my personal journey 
               combining both fields.
             </p>
