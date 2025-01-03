@@ -3,6 +3,7 @@ import Hero from './Hero'
 import Thoughts from './Thoughts'
 import Projects from './Projects'
 import PostDetail from './PostDetail'
+import Reading from './Reading'
 import { useTheme } from '../contexts/ThemeContext'
 
 export default function Layout() {
@@ -20,6 +21,7 @@ export default function Layout() {
             <Route path="/posts" element={<Thoughts />} />
             <Route path="/posts/:slug" element={<PostDetail />} />
             <Route path="/projects" element={<Projects />} />
+            <Route path="/reading" element={<Reading />} />
           </Routes>
         </div>
       </main>

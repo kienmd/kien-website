@@ -55,6 +55,16 @@ export default function Hero() {
           </>
         );
       
+      case '/reading':
+        return (
+          <>
+            <h1 className="text-6xl font-serif">Reading List</h1>
+            <p className="text-xl text-gray-600 dark:text-gray-300 leading-relaxed">
+              A curated collection of articles, papers and books that have shaped my thinking.
+            </p>
+          </>
+        );
+      
       default:
         return null;
     }
@@ -121,6 +131,16 @@ export default function Hero() {
               }`}
             >
               Projects
+            </Link>
+            <Link 
+              to="/reading" 
+              className={`transition-colors duration-500 ${
+                location.pathname === '/reading' 
+                  ? 'text-gray-900 dark:text-white border-b border-gray-900 dark:border-white' 
+                  : 'text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white'
+              }`}
+            >
+              Reading
             </Link>
           </nav>
         </div>
